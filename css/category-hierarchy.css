@@ -1,0 +1,25 @@
+/* Category page: make second-level categories render as pill chips */
+.category-list-content .all-category-list > .all-category-list-item > .all-category-list-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+.category-list-content .all-category-list > .all-category-list-item > .all-category-list-child > li {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+
+.category-list-content .all-category-list > .all-category-list-item > .all-category-list-child > li > a {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: var(--third-background-color);
+  line-height: 1.2;
+}
+
+.category-list-content .all-category-list > .all-category-list-item > .all-category-list-child > li > a:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
